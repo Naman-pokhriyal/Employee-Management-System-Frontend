@@ -1,0 +1,32 @@
+nav {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: calc(100vh - 10px);
+    background-color: var(--richblack);
+    color: var(--white);
+    padding: 10px;
+}
+
+nav a {
+    padding: 10px;
+    margin: 2px;
+    border-radius: 8px;
+}
+
+nav a.active {
+    background-color: var(--primary);
+}
+
+nav a.active,
+nav a.active > .icon {
+    color: var(--richblack);
+}
+
+nav a{
+    display: flex;
+    align-items: center;
+}
+nav .icon{
+    margin-right: 10px;
+}

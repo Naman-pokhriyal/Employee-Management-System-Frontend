@@ -1,0 +1,12 @@
+.main-wrap{
+    display: flex;
+    flex-direction: row;
+    border: 5px solid var(--richblack);
+    box-shadow: 0 0 0 13px var(--richblack);
+    border-radius: 10px;
+}
+
+main{
+    flex: 1;
+    padding: 10px;
+}

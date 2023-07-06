@@ -1,0 +1,45 @@
+.badgeWrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.badge {
+    padding: 10px;
+    margin: 10px;
+    height: 100px;
+    max-width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid;
+    flex: 0.5
+}
+
+.badge_title {
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.badge_value {
+    align-self: center;
+    font-weight: bolder;
+    font-size: 28px;
+}
+
+/* Toggle Switch */
+.toggleGroup {
+    background-color: #919191;
+    border-radius: 5px;
+    width: max-content;
+    overflow: hidden;
+}
+
+.toggleGroup>button {
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.toggleActive {
+    background-color: #fff;
+    box-shadow: 0px 0px 10px #000;
+}

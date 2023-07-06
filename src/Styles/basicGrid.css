@@ -1,0 +1,23 @@
+.empCards{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 10px;
+}
+.empCard{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #000;
+}
+
+.empPic{
+    aspect-ratio: 1;
+    border: 1px solid #000;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    width: 100%;
+    object-fit: cover;
+}
