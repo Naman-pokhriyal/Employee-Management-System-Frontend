@@ -6,13 +6,9 @@ Welcome to the Employee Management System Frontend project! This is a major proj
 
 To contribute to this project, please follow the setup instructions below:
 
-1. Download MySQL and make new connection in workbench with the following:
-   * MYSQL_URL: containers-us-west-84.railway.app
-   * MYSQLPORT: 6285
-   * MYSQLUSER: root
-   * MYSQLPASSWORD: fcF4tso7u4YBFFh47jcZ
-2. Fork this repository and open pull requests whenever you make any changes.
-> NOTE: Make sure you keep the database clean after testing.
+1. Fork this repository
+2. Clone it on your system
+3. Make changes and Open Pulll requests
 
 ### Server Routes:
   * URL: https://ems-server-xgbo.onrender.com
