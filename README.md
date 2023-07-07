@@ -6,9 +6,13 @@ Welcome to the Employee Management System Frontend project! This is a major proj
 
 To contribute to this project, please follow the setup instructions below:
 
-1. Download MySQL and set the root password to "Password" for simplicity.
-2. Visit the [Employee Management System Backend](https://github.com/Naman-pokhriyal/Employee-Management-System-Backend) repository and set it up.
-3. Fork this repository and open pull requests whenever you make any changes.
+1. Download MySQL and make new connection in workbench with the following:
+   * MYSQL_URL: containers-us-west-84.railway.app
+   * MYSQLPORT: 6285
+   * MYSQLUSER: root
+   * MYSQLPASSWORD: fcF4tso7u4YBFFh47jcZ
+2. Fork this repository and open pull requests whenever you make any changes.
+> NOTE: Make sure you keep the database clean after testing.
 
 ## Project Overview
 
