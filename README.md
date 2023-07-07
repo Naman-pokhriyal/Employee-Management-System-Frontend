@@ -14,6 +14,24 @@ To contribute to this project, please follow the setup instructions below:
 2. Fork this repository and open pull requests whenever you make any changes.
 > NOTE: Make sure you keep the database clean after testing.
 
+### Server Routes:
+  * URL: https://ems-server-xgbo.onrender.com
+  * Employee:
+    1. /employee/add (POST)
+    2. /employee/remove (POST)
+    3. /employee (GET)
+  * Department:
+    1. /department/add (POST)
+    2. /department (GET)
+  * Attendance:
+    1. /attendance/add (POST)
+    2. /attendance/get (GET)
+  * Leaves:
+    1. /leaves/add (POST)
+    2. /leaves/get (GET)
+
+  > Contact me for any changes or addition suggestions
+
 ## Project Overview
 
 The Employee Management System Frontend is designed to provide a comprehensive user interface for managing employees within an organization. By contributing to this project, you'll get hands-on experience with intermediate concepts and the opportunity to implement various functionalities.
